@@ -1,0 +1,14 @@
+<mvc:View controllerName="canvasz_canvas_79.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:u="sap.ui.unified" xmlns:core="sap.ui.core">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<u:FileUploader id="fileUploaderFS" multiple="false"/>
+					<Button text="Upload" type="Accept" press="onUploadFile"/>
+					<core:HTML id="html" content="&lt;canvas id='signature-pad' width='600' height='600' align='center' class='test'&gt;&lt;/canvas&gt;"></core:HTML>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
